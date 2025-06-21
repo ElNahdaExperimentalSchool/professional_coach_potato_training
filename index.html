@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Couch Potato University</title>
+    <style>
+        body {
+            background: #8B4513;
+            font-family: 'Trebuchet MS';
+            color: white;
+            padding: 25px;
+            margin: 0;
+        }
+        
+        .potato-header {
+            background: #CD853F;
+            color: #8B4513;
+            text-align: center;
+            padding: 25px;
+            border-radius: 50px;
+            margin-bottom: 30px;
+            border: 5px solid #A0522D;
+        }
+        
+        .couch {
+            background: #4A4A4A;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px 0;
+            border: 3px solid #696969;
+        }
+        
+        .skill-meter {
+            background: #333;
+            height: 20px;
+            border-radius: 10px;
+            margin: 10px 0;
+            overflow: hidden;
+        }
+        
+        .skill-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #FF6B6B, #4ECDC4);
+            border-radius: 10px;
+            animation: fill 2s ease-in-out;
+        }
+        
+        @keyframes fill {
+            from {
+                width: 0%;
+            }
+        }
+        
+        .curriculum {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .course-box {
+            background: #654321;
+            padding: 15px;
+            border-radius: 10px;
+            flex: 1;
+            min-width: 200px;
+            border: 2px solid #8B7355;
+        }
+        
+        .potato-emoji {
+            font-size: 40px;
+            animation: bounce 1s infinite;
+        }
+        
+        @keyframes bounce {
+            0%,
+            100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="potato-header">
+        <div class="potato-emoji"></div>
+        <h1>COUCH POTATO UNIVERSITY</h1>
+        <p><em>"Excellence in Relaxation Since Forever"</em></p>
+    </div>
+    <img style="margin-left: 350px;" src="https://tse2.mm.bing.net/th/id/OIP.dHDyinQuLwFNxOVVgLzFkgHaHa?r=0&rs=1&pid=ImgDetMain" alt="">
+    <div class="couch">
+        <h2> Master the Art of Professional Lounging</h2>
+
+        <h3>Your Progress:</h3>
+        <p>Remote Control Mastery:</p>
+        <div class="skill-meter">
+            <div class="skill-fill" style="width: 85%;"></div>
+        </div>
+
+        <p>Snack Optimization:</p>
+        <div class="skill-meter">
+            <div class="skill-fill" style="width: 92%;"></div>
+        </div>
+
+        <p>Binge-Watching Endurance:</p>
+        <div class="skill-meter">
+            <div class="skill-fill" style="width: 78%;"></div>
+        </div>
+    </div>
+
+    <h2>📚 Curriculum:</h2>
+    <div class="curriculum">
+        <div class="course-box">
+            <h3>Level 1: Beginner Sitting</h3>
+            <p>Learn proper cushion placement and optimal slouching angles.</p>
+        </div>
+
+        <div class="course-box">
+            <h3>Level 2: Advanced Lounging</h3>
+            <p>Master the art of never getting up for snacks.</p>
+        </div>
+
+        <div class="course-box">
+            <h3>Level 3: PhD in Laziness</h3>
+            <p>Achieve enlightenment through complete immobility.</p>
+        </div>
+    </div>
+
+    <div style="text-align: center; margin-top: 30px; background: rgba(0,0,0,0.3); padding: 20px; border-radius: 10px;">
+        <h3> Graduate Testimonial:</h3>
+        <p><em>"I haven't moved from my couch in 3 days thanks to CPU! 
+        10/10 would recommend to other aspiring vegetables."</em></p>
+        <strong>- Larry the Legendary Loafer</strong>
+    </div>
+</body>
+
+</html>
